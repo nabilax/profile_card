@@ -1,0 +1,82 @@
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.profile-card {
+    width: 400px;
+    height: 400px; /* Increased height for profile picture */
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.occupation {
+    font-size: 16px;
+    color: #555555;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #777777;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    text-align: justify;
+    justify-content: center;
+    
+}
+
+.contact-info p {
+    font-size: 14px;
+    color: #616060;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.follow-btn, .hire-me-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.follow-btn:hover, .hire-me-btn:hover {
+    background-color: #0056b3;
+}
